@@ -16,17 +16,17 @@
 - [Contacts](#contacts)
 
 ## Description
-This repository contains PiCkeR, a tool for conference program chairs to assign reviewers to papers. PiCkeR is initially developed for and used in MICRO 2022 conference.
-Currently, it does not come with documentation, and you may check the existing comments or directly read the code. We may add more docs and examples in the future.  
+This repository contains PiCkeR, a tool for conference program chairs to assign reviewers to papers. PiCkeR was initially developed for and used in MICRO 2022 conference. 
+Currently, it does not come with documentation, and you may check the existing comments or directly read the code. We may add more docs and examples in the future.
 
 ## How it works
-This tool sorts reviewers based on their expertise levels for each paper. The papers and PCs information must be collected from HoTCRP and be fed to the tool. In addition, it requires the list of topics that are defined in HoTCRP.
+This tool sorts reviewers based on their expertise levels for each paper. The paper and PC information must be collected from HoTCRP and fed to the tool. In addition, it requires the list of topics that are defined in HoTCRP.
   
 
-**Note 1:** PiCkeR has been created to be compatible with the HotCRP v3.0b3 and may not be compatible with future version of HotCRP as HotCRP is being updated regularly.  
-**Note 2:** PiCkeR uses email address registered with HotCRP to uniquelly identify each reviewer.  
+**Note 1:** PiCkeR has been created to be compatible with the HotCRP v3.0b3 and may not be compatible with the future version of HotCRP as HotCRP is being updated regularly.  
+**Note 2:** PiCkeR uses email addresses registered with HotCRP to identify each reviewer uniquely.  
 **Note 3:** With the current version, papers are assumed to have up to three topics.  
-**Note 4:** Each reviewer has a expertise value from -2 (Low) to +2 (High). PiCkeR only considers values +1 and +2 in sorting reviewers.  
+**Note 4:** Each reviewer has an expertise value from -2 (Low) to +2 (High). PiCkeR only considers values +1 and +2 in sorting reviewers.  
 
 ## Prerequisites
 * pip
@@ -84,9 +84,9 @@ PiCkeR is licensed under GNU General Public License v2.0.
 Feel free to modify, use, and distribute it. 
 
 ## Contribution
-PiCkeR may not suite your needs and may also contain some bugs and imperfections.
-We encourage users to add more features into it.
-Should you want to add new features to PiCkeR or just do a little bug fixing, please feel free to open a pull request.
+PiCkeR may not suit your needs and may contain bugs and imperfections.
+Therefore, we encourage users to add more features to it.
+Please open a pull request if you want to add new features to PiCkeR or fix a little bug.
 
 ## Contacts
 
