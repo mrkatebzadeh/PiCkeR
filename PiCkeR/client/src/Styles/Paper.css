@@ -1,0 +1,63 @@
+#abstract p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+#abstract .short {
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
+.paper .selectize-input {
+  width: 700px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.paper .title {
+  width: 100px;
+  display: inline-block;
+}
+
+.paperinfo {
+  margin: 10px;
+}
+
+.paper .btn {
+  width: 150px;
+}
+
+.authors {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 10px;
+}
+
+.authors td {
+  border: 0px solid rgb(177, 177, 177);
+  padding: 2px 2px 0 20px;
+}
+
+.authors th {
+  text-align: left;
+  border-bottom: 2px solid rgb(177, 177, 177);
+  padding: 2px 2px 0 20px;
+  margin: 0px;
+}
+
+.column table,
+.authors table {
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgb(177, 177, 177);
+}
+
+.column table,
+.authors table {
+  width: 100%;
+  margin: 0px auto;
+}

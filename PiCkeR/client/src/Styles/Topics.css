@@ -1,0 +1,16 @@
+.tabletopics .weightselect {
+  min-width: 100px;
+}
+
+.tabletopics .topicselect {
+  width: 600px;
+}
+
+.topics {
+  display: flex;
+  justify-content: center;
+}
+
+.tabletopics .selectize-input {
+  width: 600px;
+}
