@@ -32,3 +32,4 @@ Werkzeug = "==2.1.2"
 
 [requires]
 python_version = "3.10"
+
