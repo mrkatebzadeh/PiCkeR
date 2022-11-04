@@ -1,0 +1,156 @@
+[
+    {
+        "pid": 3,
+        "title": "Evaluating Caching Policies for Deep Neural Networks",
+        
+        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "authors": [
+            {
+                "email": "fake1@gmail.com",
+                "first": "Fake",
+                "last": "Author",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake2@gmail.com",
+                "first": "Fake",
+                "last": "Author2",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake3@gmail.com",
+                "first": "Fake",
+                "last": "Author3",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake4@gmail.com",
+                "first": "Fake",
+                "last": "Author4",
+                "affiliation": "Fake University 1"
+            }
+        ],
+        "confirmation_authorship": true,
+        "ethics_declaration": "",
+        "revision_letter_options": "No revision letter",
+        "best_matching_topic": "Accelerators (other)",
+        "second_best_matching_topic": "Processing in-memory\/near-memory\/in-cache",
+        "third_best_matching_topic": "Architecture (other)",
+        "please_select_same_exact_topics_below_as_have_selected_above": true,
+        "topics": [
+            "Accelerators (other)",
+            "Non-traditional computing systems and emerging devices (other)",
+            "Architecture (other)"
+        ],
+        "pc_conflicts": {
+        },
+        "collaborators": "",
+        "status": "submitted",
+        "submitted": true,
+        "submitted_at": 1650600733
+    },
+    {
+        "pid": 5,
+        "title": "This is another fake paper",
+        
+        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "authors": [
+            {
+                "email": "fake6@gmail.com",
+                "first": "Fake",
+                "last": "Author6",
+                "affiliation": "Fake University 2"
+            },
+            {
+                "email": "fake7@gmail.com",
+                "first": "Fake",
+                "last": "Author7",
+                "affiliation": "Fake University 3"
+            },
+            {
+                "email": "fake8@gmail.com",
+                "first": "Fake",
+                "last": "Author8",
+                "affiliation": "Fake University 2"
+            },
+            {
+                "email": "fake9@gmail.com",
+                "first": "Fake",
+                "last": "Author9",
+                "affiliation": "Fake University 4"
+            }
+        ],
+        "contacts": [
+            
+        ],
+        "confirmation_authorship": true,
+        "ethics_declaration": "",
+        "revision_letter_options": "No revision letter",
+        "best_matching_topic": "Machine learning accelerators and systems",
+        "please_select_same_exact_topics_below_as_have_selected_above": true,
+        "topics": [
+            "Machine learning accelerators and systems"
+        ],
+        "pc_conflicts": {
+
+        },
+        "collaborators": "",
+        "status": "submitted",
+        "submitted": true,
+        "submitted_at": 1650610021
+    },
+    {
+        "pid": 6,
+        "title": "This is yet another fake paper",
+        
+        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "authors": [
+            {
+                "email": "fake1@gmail.com",
+                "first": "Fake",
+                "last": "Author",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake2@gmail.com",
+                "first": "Fake",
+                "last": "Author2",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake3@gmail.com",
+                "first": "Fake",
+                "last": "Author3",
+                "affiliation": "Fake University 1"
+            },
+            {
+                "email": "fake4@gmail.com",
+                "first": "Fake",
+                "last": "Author4",
+                "affiliation": "Fake University 1"
+            }
+        ],
+        "contacts": [
+            
+        ],
+        "confirmation_authorship": true,
+        "ethics_declaration": "",
+        "revision_letter_options": "No revision letter",
+        "best_matching_topic": "Debugging correctness and performance",
+        "second_best_matching_topic": "Systems (other)",
+        "third_best_matching_topic": "Benchmarking, simulation, and emulation technologies",
+        "please_select_same_exact_topics_below_as_have_selected_above": true,
+        "topics": [
+            "Benchmarking, simulation, and emulation technologies",
+            "Debugging correctness and performance",
+            "Systems (other)"
+        ],
+        "pc_conflicts": {
+
+        },
+        "collaborators": "",
+        "status": "submitted",
+        "submitted": true,
+        "submitted_at": 1650598802
+    }
+]

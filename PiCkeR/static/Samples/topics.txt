@@ -1,0 +1,82 @@
+Accelerators (other)
+Approximate computing
+Architecture (other)
+Benchmarking, simulation, and emulation technologies
+Binary instrumentation
+Blockchain
+Branch prediction
+Cache coherence protocols and memory consistency models
+Caches
+Case studies of real-world or experimental systems
+Circuits, VLSI
+Cloud computing, cloud programming models and applications
+Code generation and synthesis
+Compiler techniques and optimizations
+Cryogenic computing
+Data analytics
+Database accelerators
+Databases and data management
+Datacenter-/rack-scale systems and architectures
+Debugging correctness and performance
+Distributed systems
+DNA/molecular computing and storage
+Domain-specific languages
+Embedded systems
+Emerging application domains
+Formal verification and testing
+FPGA architectures and accelerators
+FPGA software and tools
+Genomics, computational biology
+GPU microarchitecture
+GPU programming and system support
+GPU systems
+Graph processing
+Hardware design tools (EDA, synthesis, hardware generation, etc)
+Heterogeneous systems
+High-performance and scientific computing
+Human factors, user evaluations, usability
+Instruction set architecture
+Integration (3D, interposer, wafer-scale)
+Intermittent computing
+IoT and edge computing
+Machine learning accelerators and systems
+Machine learning for systems/architecture
+Managed languages and runtimes
+Memory management and garbage collection
+Memory technologies and architectures
+Microarchitecture (CPU)
+Microservices and serverless
+Mobile systems
+Multicore architectures and systems
+Networks -- internet and wide-area
+Networks -- node-/rack-/datacenter-scale
+Networks -- on-chip (including intra-package, interposer and wafer-scale)
+NIC and switch architectures and programming (off-chip networks)
+Non-traditional computing systems and emerging devices (other)
+Open-source hardware
+Operating systems
+Parallelism and concurrency
+Performance and quality of service
+Persistent/non-volatile memory
+Photonics
+Power, energy, and thermal management
+Privacy
+Processing in-memory/near-memory/in-cache
+Programming models, languages, and compilation (including hardware support)
+Quantum computing (hardware, software, systems)
+Real-time systems
+Reconfigurable architectures and systems (e.g., CGRA)
+Reliability, availability, fault-tolerance
+Robotics
+Runtime systems
+Scheduling and resource management
+Security -- hardware
+Security -- software
+Shared memory systems
+Storage systems
+Superconducting
+Sustainability
+Systems (other)
+Tensor computation (dense and sparse linear algebra)
+Virtual memory
+Virtualization
