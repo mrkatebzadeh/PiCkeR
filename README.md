@@ -77,7 +77,7 @@ You must put these files under ```PiCkeR/static/input/``` directory.
    ```sh
    sh ./run.sh
    ```
-4. Open <http://127.0.0.1:5000> on the browser.
+4. Open <http://127.0.0.1:5001> on the browser.
 
 ## License
 
