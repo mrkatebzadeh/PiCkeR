@@ -1,46 +1,39 @@
 [
     {
         "pid": 3,
-        "title": "Evaluating Caching Policies for Deep Neural Networks",
+        "title": "Saba: Rethinking Datacenter Network Allocation from Application’s Perspective",
         
-        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "abstract": "Today’s datacenter workloads increasingly comprise distributed data-intensive applications, including data analytics, graph processing, and machine-learning training. These applications are bandwidth-hungry and often congest the datacenter network, resulting in poor network performance, which hurts application completion time. Efforts made to address this problem generally aim to achieve max-min fairness at the flow or application level. We observe that splitting the bandwidth equally among workloads is sub-optimal for aggregate application-level performance because various workloads exhibit different sensitivity to network bandwidth: for some workloads, even a small reduction in the available bandwidth yields a significant increase in completion time; for others, the completion time is largely insensitive to the available bandwidth. Building on this insight, we propose Saba, an applicationaware bandwidth allocation framework that distributes network bandwidth based on application-level sensitivity. Saba combines ahead-of-time application profiling to determine bandwidth sensitivity with runtime bandwidth allocation using lightweight software support with no modifications to network hardware or protocols. Experiments with a 32- server hardware testbed show that Saba improves average completion time by 1.88× (and by 1.27× in a simulated 1,944- server cluster).",
         "authors": [
             {
-                "email": "fake1@gmail.com",
-                "first": "Fake",
-                "last": "Author",
-                "affiliation": "Fake University 1"
+                "email": "m.r.katebzadeh@ed.ac.uk",
+                "first": "M.R. Siavash",
+                "last": "Katebzadeh",
+                "affiliation": "University of Edinburgh"
             },
             {
-                "email": "fake2@gmail.com",
-                "first": "Fake",
-                "last": "Author2",
-                "affiliation": "Fake University 1"
+                "email": "",
+                "first": "Paolo",
+                "last": "Costa",
+                "affiliation": "Microsoft Research"
             },
             {
-                "email": "fake3@gmail.com",
-                "first": "Fake",
-                "last": "Author3",
-                "affiliation": "Fake University 1"
-            },
-            {
-                "email": "fake4@gmail.com",
-                "first": "Fake",
-                "last": "Author4",
-                "affiliation": "Fake University 1"
-            }
-        ],
+                "email": "",
+                "first": "Boris",
+                "last": "Grot",
+                "affiliation": "University of Edinburgh"
+            }        ],
         "confirmation_authorship": true,
         "ethics_declaration": "",
         "revision_letter_options": "No revision letter",
-        "best_matching_topic": "Accelerators (other)",
-        "second_best_matching_topic": "Processing in-memory\/near-memory\/in-cache",
-        "third_best_matching_topic": "Architecture (other)",
+        "best_matching_topic": "Networks -- node-/rack-/datacenter-scale",
+        "second_best_matching_topic": "Networks -- internet and wide-area",
+        "third_best_matching_topic": "NIC and switch architectures and programming (off-chip networks)",
         "please_select_same_exact_topics_below_as_have_selected_above": true,
         "topics": [
-            "Accelerators (other)",
-            "Non-traditional computing systems and emerging devices (other)",
-            "Architecture (other)"
+            "Networks -- node-/rack-/datacenter-scale",
+            "Networks -- internet and wide-area",
+            "NIC and switch architectures and programming (off-chip networks)"
         ],
         "pc_conflicts": {
         },
@@ -51,26 +44,26 @@
     },
     {
         "pid": 5,
-        "title": "This is another fake paper",
+        "title": "Lukewarm Serverless Functions: Characterization and Optimization",
         
-        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "abstract": "Serverless computing has emerged as a widely-used paradigm for running services in the cloud. In serverless, developers organize their applications as a set of functions, which are invoked ondemand in response to events, such as an HTTP request. To avoid long start-up delays of launching a new function instance, cloud providers tend to keep recently-triggered instances idle (or warm) for some time after the most recent invocation in anticipation of future invocations. Thus, at any given moment on a server, there may be thousands of warm instances of various functions whose executions are interleaved in time based on incoming invocations. This paper observes that (1) there is a high degree of interleaving among warm instances on a given server; (2) the individual warm functions are invoked relatively infrequently, often at the granularity of seconds or minutes; and (3) many function invocations complete within a few milliseconds. Interleaved execution of rarely invoked functions on a server leads to thrashing of each function’s microarchitectural state between invocations. Meanwhile, the short execution time of a function impedes amortization of the warmup latency of the cache hierarchy, causing a 31-114% increase in CPI compared to execution with warm microarchitectural state. We identify on-chip misses for instructions as a major contributor to the performance loss. In response we propose Jukebox, a record-and-replay instruction prefetcher specifically designed for reducing the start-up latency of warm function instances. Jukebox requires just 32KB of metadata per function instance and boosts performance by an average of 18.7% for a wide range of functions, which translates into a corresponding throughput improvement.",
         "authors": [
             {
                 "email": "fake6@gmail.com",
-                "first": "Fake",
-                "last": "Author6",
+                "first": "David",
+                "last": "Schall",
                 "affiliation": "Fake University 2"
             },
             {
                 "email": "fake7@gmail.com",
-                "first": "Fake",
-                "last": "Author7",
+                "first": "Arthemiy",
+                "last": "Margaritov",
                 "affiliation": "Fake University 3"
             },
             {
                 "email": "fake8@gmail.com",
-                "first": "Fake",
-                "last": "Author8",
+                "first": "DMitrii",
+                "last": "Autho",
                 "affiliation": "Fake University 2"
             },
             {
@@ -101,32 +94,32 @@
     },
     {
         "pid": 6,
-        "title": "This is yet another fake paper",
+        "title": "Zeus: Locality-aware Distributed Transactions",
         
-        "abstract": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. ",
+        "abstract": "State-of-the-art distributed in-memory datastores (FaRM, FaSST, DrTM) provide strongly-consistent distributed transactions with high performance and availability. Transactions in those systems are fully general; they can atomically manipulate any set of objects in the store, regardless of their location. To achieve this, these systems use complex distributed transactional protocols. Meanwhile, many workloads have a high degree of locality. For such workloads, distributed transactions are an overkill as most operations only access objects located on the same server – if sharded appropriately. In this paper, we show that for these workloads, a singlenode transactional protocol combined with dynamic object re-sharding and asynchronously pipelined replication can provide the same level of generality with better performance, simpler protocols, and lower developer effort. We present Zeus, an in-memory distributed datastore that provides general transactions by acquiring all objects involved in the transaction to the same server and executing a single-node transaction on them. Zeus is fault-tolerant and stronglyconsistent. At the heart of Zeus is a reliable dynamic object sharding protocol that can move 250K objects per second per server, allowing Zeus to process millions of transactions per second and outperform more traditional distributed transactions on a wide range of workloads that exhibit locality.",
         "authors": [
             {
                 "email": "fake1@gmail.com",
-                "first": "Fake",
+                "first": "Antonios",
                 "last": "Author",
-                "affiliation": "Fake University 1"
+                "affiliation": "Katsarakis"
             },
             {
                 "email": "fake2@gmail.com",
-                "first": "Fake",
-                "last": "Author2",
+                "first": "Yijun",
+                "last": "Ma",
                 "affiliation": "Fake University 1"
             },
             {
                 "email": "fake3@gmail.com",
-                "first": "Fake",
-                "last": "Author3",
+                "first": "Zhaowei",
+                "last": "Tan",
                 "affiliation": "Fake University 1"
             },
             {
                 "email": "fake4@gmail.com",
-                "first": "Fake",
-                "last": "Author4",
+                "first": "Boris",
+                "last": "Grot",
                 "affiliation": "Fake University 1"
             }
         ],

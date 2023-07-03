@@ -16,12 +16,29 @@
 - [Contacts](#contacts)
 
 ## Description
-This repository contains PiCkeR, a tool for conference program chairs to assign reviewers to papers. PiCkeR was initially developed for and used in MICRO 2022 conference. 
-Currently, it does not come with documentation, and you may check the existing comments or directly read the code. We may add more docs and examples in the future.
+This repository contains PiCkeR, a web-based application that aims to streamline the process of selecting and sorting reviewers for conference papers.
+PiCkeR was initially developed for and used in MICRO 2022 conference. 
 
 ## How it works
 This tool sorts reviewers based on their expertise levels for each paper. The paper and PC information must be collected from HoTCRP and fed to the tool. In addition, it requires the list of topics that are defined in HoTCRP.
   
+### Paper Details
+PiCkeR provides a comprehensive view of each paper, including its abstract and the list of topics associated with it. For each topic, PiCkeR displays a column that shows the PC members who have expertise in that particular topic. The PC members are sorted within each topic column based on their level of expertise.
+
+In addition to the expertise-based sorting within each topic, PiCkeR includes an additional column that lists the PC members based on their overall score across associated topics. 
+This column provides an aggregated view of the PC members' expertise and helps identify individuals with broad knowledge across multiple topics. Conference program chairs can use this information and the shuffle button to ensure a balanced distribution of expertise among the reviewers. 
+![](images/1.png)
+
+### Selecting the Right Topics
+PiCkeR offers flexibility in selecting the right topics for each paper, allowing conference program chairs to make adjustments based on the abstract of the paper. While the initial topics are extracted from the data collected from HoTCRP, program chairs can modify or refine the selected topics to ensure an accurate representation of the paper's content.
+![](images/2.png)
+
+
+### Assigning Weights to Topics
+PiCkeR allows conference program chairs to assign weights to each topic, which affects the calculation of the overall score for PC members. The weights reflect the relative importance or priority of each topic in the conference.
+
+![](images/3.png)
+
 
 **Note 1:** PiCkeR has been created to be compatible with the HotCRP v3.0b3 and may not be compatible with the future version of HotCRP as HotCRP is being updated regularly.  
 **Note 2:** PiCkeR uses email addresses registered with HotCRP to identify each reviewer uniquely.  
